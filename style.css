@@ -1,0 +1,353 @@
+body {font-family: Arial;
+}
+
+
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #32354B;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: inherit;
+  float: right;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  /*font-size: 17px;*/
+  color: white;
+}
+.tab label {
+  color: white;
+  float: left;
+  padding-top: 12px;
+  padding-left: 10px;
+  font-size: 20px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #5E17EB;
+}
+
+/* Create an active/current tablink class */
+/*.tab button.active {
+  background-color: #5E17EB;
+}*/
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  /*padding: 6px 12px;*/
+  border: 1px solid #ccc;
+  border-top: none;
+}
+.ml6 {
+  position: relative;
+  font-weight: 900;
+  font-size: 3.3em;
+}
+
+.ml6 .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.2em;
+  padding-right: 0.05em;
+  padding-bottom: 0.1em;
+  overflow: hidden;
+}
+
+.ml6 .letter {
+  display: inline-block;
+  line-height: 1em;
+}
+.about{
+  background-color: #32354B; 
+}
+.secondpart{
+  padding-top: 15%;
+  padding-bottom: 15%;
+}
+
+
+.education_box{
+  padding-top: 5%;
+}
+.project_details{
+  color: white;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.footer1{
+  height: 120px;
+  padding-top: 20px;
+  background-color: #5E17EB; 
+}
+
+
+
+@media screen and (min-width: 601px) {
+  button.tablinks {
+   font-size: 17px;
+  }
+  label.label{
+    font-size: 17px;
+  }
+  div.full_content{
+  height: 700px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+ 
+  }
+  div.name{
+  background-color: #5E17EB;
+  width: 50%;
+  position: relative;
+  margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) 
+
+}
+h1.name_heading{
+  color: white;
+  font-size: 80px;
+}
+h1.profession_heading{
+  color: white;
+  font-size: 40px;
+  position: relative;
+  margin: 0;
+    position: absolute;
+    top: 62%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) 
+}
+img.abhi_image{
+  height: 100%;
+  width: 100%;
+ border-radius: 40%;
+ 
+}
+h1.about_bold{
+  padding-top: 50px;
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+}
+p.about_para{
+  color: white;
+  font-size: 20px;
+}
+p.about_details{
+  padding-right: 1px;
+  padding-left: 30px;
+}
+h1.about_details{
+  padding-right: 1px;
+  padding-left: 30px;
+}
+div.qualification{
+  background-color: #5E17EB;
+  height: 70px;
+  width: 100%;
+}
+h1.qualification_heading{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+  text-align: center;
+}
+h4.Education_heading{
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  padding-top: 8px;
+}
+h5.college_name{
+  color: white;
+  font-size: 15px;
+}
+span.contact{
+  padding-left: 10px;
+  color: white;
+}
+h6.email{
+  color: white;
+}
+h6.developer_details{
+  text-align: center;
+  padding-top: 5px;
+  color: white;
+}
+h6.developer_details1{
+  text-align: center;
+  padding-top: 0px;
+  padding-bottom: 15px;
+  color: white;
+}
+img.icon{
+margin-right: 20px;
+float: right;
+color: white;
+height: 25px;
+width: 25px;
+}
+div.about{
+  padding-top: 15%;
+  padding-bottom: 11%;
+}
+div.thirdpart{
+  padding-top: 5%;
+  padding-bottom: 5%;
+  
+}
+div.fifthpart{
+  padding-top: 5%;
+ 
+}
+}
+
+
+@media screen and (max-width: 600px) {
+  button.tablinks {
+   font-size: 10px;
+  }
+  label.label{
+    font-size: 11px;
+  }
+  div.full_content{
+  height: 300px;
+  width: 100%;
+  background-repeat: no-repeat;
+  }
+  div.name{
+  background-color: #5E17EB;
+  width: 80%;
+  position: relative;
+  margin: 0;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) 
+}
+h1.name_heading{
+  color: white;
+  font-size: 40px;
+}
+h1.profession_heading{
+  color: white;
+  font-size: 20px;
+  position: relative;
+  margin: 0;
+    position: absolute;
+    top: 33%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) 
+}
+img.abhi_image{
+  
+  height: 100%;
+  width: 100%;
+ border-radius: 40%;
+ 
+}
+h1.about_bold{
+  padding-top: 10px;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+p.about_para{
+  color: white;
+  font-size: 15px;
+}
+div.img_responsive{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+div.qualification{
+  background-color: #5E17EB;
+  height: 50px;
+  width: 100%;
+}
+h1.qualification_heading{
+  font-size: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+  text-align: center;
+}
+img.education_icon{
+  height: 40%;
+  width: 40%;
+}
+h4.Education_heading{
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  padding-top: 8px;
+}
+h5.college_name{
+  color: white;
+  font-size: 12px;
+}
+img.project_icon{
+  height: 50%;
+  width: 90%;
+}
+span.contact{
+  font-size: 12px;
+  padding-left: 10px;
+  color: white;
+}
+h6.email{
+  color: white;
+}
+h6.developer_details{
+  font-size: 13px;
+  text-align: center;
+  padding-top: 5px;
+  color: white;
+}
+h6.developer_details1{
+  font-size: 13px;
+  text-align: center;
+  padding-top: 0px;
+  color: white;
+}
+img.icon{
+ margin-right: 20px;
+ height: 20px;
+ width: 20px;
+}
+img.icon1{
+ margin-left: 125px;
+}
+div.about{
+  padding-top: 15%;
+  padding-bottom: 0%;
+}
+div.thirdpart{
+  padding-top: 5%;
+  padding-bottom: 5%;
+  
+}
+div.fifthpart{
+  padding-top: 5%;
+ 
+}
+}

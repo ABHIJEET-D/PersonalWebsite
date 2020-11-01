@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="style.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+<script src='https://kit.fontawesome.com/a076d05399.js'></script>
+<title>Abhijeet's Personal Website</title>
+</head>
+<body>
+
+<div class="tab sticky-top">
+  <label class="label">Abhijeet's Personal Website</label>
+  <button  class="tablinks" onclick="smoothScroll(document.getElementById('Contact'))">Contact</button>
+   <button class="tablinks" onclick="smoothScroll(document.getElementById('Projects'))">Projects</button>
+   <button class="tablinks" onclick="smoothScroll(document.getElementById('Qualification'))">Qualification</button>
+  <button class="tablinks" onclick="smoothScroll(document.getElementById('about'))">About</button>
+  <button id="defaultOpen" class="tablinks" onclick="openCity(event, 'Tokyo')">Home</button>
+</div>
+
+
+<div id="Tokyo" class="tabcontent">
+	  <div class="full_content" style="background-image: url('img/background.png');">
+	  <center><div class="name ">
+	 		<h1 class="name_heading">ABHIJEET</h1>
+	  </div><h1 class="ml6 profession_heading">
+  			<span class="text-wrapper">
+    		<span class="letters ">Software Engineer</span>
+  			</span></h1></center>
+	  </div>
+	<div id="about" class="container-fluid about">
+	<div class="container">
+	  <div class="row no-gutters">
+	  		<div class="col-6 col-md-4 col-sm-12 img_responsive">
+	  			<img class="abhi_image" src="img/abhi.jpg" alt="image">
+	  		</div>
+		  	<div class="col-12 col-sm-12 col-md-8">
+		  		<h1 class="about_details about_bold">About</h1>
+		  		<p align="justify" class="about_details about_para">An enthusiastic person with high optimism and leadership
+				skills pursuing bachelors of Engineering degree in Computer
+				Science. Eager to learn and implement new technologies and
+				methodologies. Always willing to innovate new things which
+				can improve the existing technology.</p>
+		  	</div>
+	  </div>
+	  </div>
+	</div>
+
+	<div id="Qualification" class="container-fluid about" style="padding-top: 56px;">
+		<div class="qualification" ><h1 class="qualification_heading">Qualification & Work Experience</h1></div>
+	<div class="container-fluid about thirdpart ">
+		  <div class="row">
+		    <div class="col-sm education_box">
+		      <center><img class="education_icon" src="img/school.png" alt="School">
+		      <h4 class="Education_heading">Secondary Education</h4>
+		      <h5 class="college_name">From Sri Vidhyaranya High School, Bidar</h5></center>
+		    </div>
+		    <div class="col-sm education_box">
+		      <center><img class="education_icon" src="img/highschool1.png" alt="School">
+		      <h4 class="Education_heading">Higher Secondary Education</h4>
+		      <h5 class="college_name">From Saraswati Independent P.U. College, Bidar</h5></center>
+		    </div>
+		    <div class="col-sm education_box">
+		      <center><img class="education_icon" src="img/ug.png" alt="School">
+		      <h4 class="Education_heading">B.E in Computer Science</h4>
+		      <h5 class="college_name">From Guru Nanak Dev Engineering college Bidar</h5></center>
+		    </div>
+		    <div class="col-sm education_box">
+		      <center><img class="education_icon" src="img/work.png" alt="School">
+		      <h4 class="Education_heading">Internship</h4>
+		      <h5 class="college_name">At e-Brain Softech Pvt. Ltd. Banglore</h5></center>
+		    </div>
+		    
+		  </div>
+    </div>
+	</div>
+
+
+	<div id="Projects" class="container-fluid about" style="padding-top: 56px;">
+		<div class="qualification"><h1 class="qualification_heading">Projects</h1></div>
+	<div class="container-fluid fifthpart">
+		  <div class="row">
+		    <div class="col-sm education_box">
+		      <center><img class="project_icon" src="img/ong.png" alt="Online Notes Gallery">
+		      <h4 class="Education_heading">Online Notes Gallery</h4>
+		      <p  class="project_details">A Web based application using which, faculty can login into their
+				account and they can upload notes on the website. And can change
+				or delete notes. And students can directly download the content
+				from the website.<br> Technology used: Django</p></center>
+		    </div>
+		    <div class="col-sm education_box">
+		      <center><img class="project_icon" src="img/car-service.jpg" alt="Car Service Managment System">
+		      <h4 class="Education_heading">Car Service Managment System</h4>
+		      <p  class="project_details">A web based application which is used to store all the data related
+				to car servicing and to generate the bill.<br>
+				Technology used: PHP</p></center>
+		    </div>
+		    <div class="col-sm education_box">
+		      <center><img class="project_icon" src="img/website.png" alt="Websites">
+		      <h4 class="Education_heading">Websites</h4>
+		      <center><p class="project_details"> 1. Personal Website.<br>
+				  2. Website for a local shop.<br>
+				Technology used: HTML, CSS, Javascript, Bootstrap</p></center>
+		    </div>
+		  </div>
+    </div>
+	</div>
+	<div id="Contact" class="footer1">
+		<span class="contact">Reach out to me: &nbsp;abhijeet41299@gmail.com, +91-9742010928</span>
+		<a class="icon "  href="https://github.com/ABHIJEET-D" target="_blank"><img class="icon icon1" src="img/instagram.png"></a>
+		<a  class="icon icon2" href="https://www.linkedin.com/in/abhijeet-4121999/" target="_blank"><img class="icon" src="img/linkdin.png"></a>
+		<a  class="icon icon3" href="https://github.com/ABHIJEET-D" target="_blank"><img class="icon" src="img/github.png"></a>
+		<h6 class="developer_details">Designed & developed by Abhijeet</h6>
+		<h6  class="developer_details1">&#169; copyright 2020</h6>
+	</div>
+</div>
+<script>
+function openCity(evt, cityName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+document.getElementById("defaultOpen").click();
+var textWrapper = document.querySelector('.ml6 .letters');
+textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
+anime.timeline({loop: true})
+  .add({
+    targets: '.ml6 .letter',
+    translateY: ["1.1em", 0],
+    translateZ: 0,
+    duration: 750,
+    delay: (el, i) => 50 * i
+  }).add({
+    targets: '.ml6',
+    opacity: 0,
+    duration: 1000,
+    easing: "easeOutExpo",
+    delay: 1000
+  });
+  window.smoothScroll = function(target) {
+	    var scrollContainer = target;
+	    do { 
+	        scrollContainer = scrollContainer.parentNode;
+	        if (!scrollContainer) return;
+	        scrollContainer.scrollTop += 1;
+	    } while (scrollContainer.scrollTop == 0);
+
+	    var targetY = 0;
+	    do { 
+	        if (target == scrollContainer) break;
+	        targetY += target.offsetTop;
+	    } while (target = target.offsetParent);
+
+	    scroll = function(c, a, b, i) {
+	        i++; if (i > 30) return;
+	        c.scrollTop = a + (b - a) / 30 * i;
+	        setTimeout(function(){ scroll(c, a, b, i); }, 20);
+	    }
+	    
+	    scroll(scrollContainer, scrollContainer.scrollTop, targetY, 0);
+	}
+</script>
+</body>
+</html> 
